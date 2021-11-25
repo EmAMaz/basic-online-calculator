@@ -1,0 +1,46 @@
+
+.conteiner_navbar{
+	display: flex;
+	background-color: #616060;
+}
+.logo{
+	font-size: 1.5em;
+	padding: 15px 50px;
+	text-decoration: none;
+	color: #fff;
+	border: bold;
+}
+.conteiner_cal{
+	display: flex;
+	justify-content: center;
+	padding: 40px;
+}
+.calculadora {  
+	padding: 25px;
+	background-color: #2B2B2B;
+	width: 30vw;
+	height: 500px;
+	border-radius: 5px;
+}
+
+.calculadora td button {
+	display: block;
+	width: 100%;
+	height: 70px;
+	font-size: 1.8em;
+	border-radius: 10px;
+}
+
+
+#resultado {
+	display: flex;
+	justify-content: center;
+	font-size: 30px;
+	margin-bottom: 50px;
+	width: 350px;
+	height: 100px;
+	line-height: 90px;
+	background-color: #ffff;
+	border-radius: 5px;	
+	overflow-x: scroll;
+}
